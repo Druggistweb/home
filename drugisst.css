@@ -148,6 +148,9 @@ h1{
     .about{
         font-size: 18px;
     }
+    footer p{
+        font-size: 13px;
+    }
 }
 p{
     line-height: 27px;
