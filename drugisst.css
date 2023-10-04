@@ -1,0 +1,165 @@
+@font-face {
+    font-family: Pacifico;
+    src: url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+}
+@font-face {
+    font-family: cairo;
+    src: url(https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Pacifico&display=swap);
+}
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600&family=Pacifico&display=swap');
+
+body{
+    background-color: #0531326e;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom-color: black;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    position: sticky;
+    top: 0;
+    background-color: #053132;
+}
+
+.menu-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.home-head, .about-head, .contact-head{
+    width: 80px;
+    color: aliceblue;
+}
+
+.logo-head{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.logo{
+    width: 400px;
+    border-radius: 50%;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+}
+
+.div-logo{
+    margin: 90px;
+}
+
+.info{
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.join-home{
+    margin-top: 80px;
+    margin-left: 190px;
+    border: none;
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2f9497;
+    color: white;
+    font-size: 24px;
+    box-shadow: 0 0 5px 2px rgb(47 148 151);
+}
+.join-home:active{
+    box-shadow: none;
+}
+.join-home:hover{
+    opacity: 75%;
+}
+
+.join{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-join{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+}
+
+
+.about{
+    font-family: Cairo;
+    color: black;
+    font-size: larger;
+}
+h1{
+    margin-right: 600px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+@media screen and (max-width:600px) {
+    
+    .logo{
+        width: 300px;
+        margin-left: 15px;
+    }
+    .div-logo{
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .home{
+        display: block;
+    }
+    .info{
+        font-size: 33px;
+        margin-bottom: 7px;
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+    .join-home{
+        margin-left: 115px;
+        margin-top: 35px;
+        margin-bottom: 70px;
+        width: 160px;
+        height: 40px;
+        font-size: 22px;
+    }
+    .home-head, .about-head, .contact-head{
+        width: 60px;
+    }
+    h1{
+        font-size: 23px;
+        margin: 20px;
+        margin-right: 140px;
+    }
+    .about{
+        font-size: 18px;
+    }
+}
+p{
+    line-height: 27px;
+}
+
+footer{
+    background-color: #000000cc;
+    padding-bottom: 0.02px;
+    color: #adadad;
+}
+footer p{
+    margin-left: 20px;
+    position: relative;
+    bottom: -7px;
+}
